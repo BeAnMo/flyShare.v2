@@ -1,0 +1,21 @@
+{
+  "name": "sqltest",
+  "version": "1.0.0",
+  "description": "reading files and adding them to a DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.1",
+    "mime": "^1.3.4",
+    "mocha": "^3.2.0",
+    "multer": "^1.3.0",
+    "request": "^2.79.0",
+    "sqlite3": "^3.1.8"
+  }
+}
