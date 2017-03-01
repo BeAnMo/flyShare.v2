@@ -1,10 +1,10 @@
 {
-  "name": "sqltest",
+  "name": "flyshare",
   "version": "1.0.0",
-  "description": "reading files and adding them to a DB",
+  "description": "sharing files over local wifi",
   "main": "index.js",
   "scripts": {
-    "test": "make test",
+    "test": "mocha",
     "start": "node index.js"
   },
   "author": "",
